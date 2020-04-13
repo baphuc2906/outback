@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Outback</title>
+    <title>Out</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -13,10 +13,7 @@
     <link rel="icon" href="public/assets/img/logotitle.png" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="glider.css">
     <link rel="stylesheet" href="main.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="public/assets/js/main.js"></script>
+
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 
@@ -33,14 +30,23 @@
                         </button>
                             <div class="collapse navbar-collapse" id="collapsibleNavId">
                                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0 d-flex justify-content-around w-100">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="shop.html"> Menu</a>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Menu
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item" href="shop.html">Lunch</a>
+                                            <a class="dropdown-item" href="shop.html">Dinner</a>
+                                        </div>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="shop.html"> order Now</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="shop.html"> wait list</a>
+                                        <a class="nav-link" href="shop.html"> Location</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#contact"> offers</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="shop.html"> gift cards</a>
@@ -121,121 +127,148 @@
                 </div>
                 <div class="row">
                     <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 pb-4">
-                        <div class="product">
-                            <img src="./public/assets/img/layer1.jpg" alt="" class="layer">
-                            <div class="product-contents">
-                                <h3>
-                                    <span class="title">
+                        <a href="">
+                            <div class="product-item">
+                                <img src="./public/assets/img/layer1.jpg" alt="" class="layer">
+                                <div class="product-contents">
+                                    <h3>
+                                        <span class="title">
                                         Give
                                     </span><br>
-                                    <span class="title">
+                                        <span class="title">
                                         Gift
                                     </span><br>
-                                    <span class="title">
+                                        <span class="title">
                                         Cards
                                     </span>
-                                </h3>
+                                    </h3>
 
-                            </div>
-                            <button class="btn btn-order text-uppercase text-white">
+                                </div>
+                                <button class="btn btn-order text-uppercase text-white">
                                 order Now
                             </button>
-                        </div>
+                            </div>
+                        </a>
                     </div>
                     <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 pb-4">
-                        <div class="product">
-                            <img src="./public/assets/img/layer2.jpg" alt="" class="layer">
-                            <div class="product-contents">
-                                <h3>
-                                    <span class="title">
+                        <a href="">
+                            <div class="product-item">
+                                <img src="./public/assets/img/layer2.jpg" alt="" class="layer">
+                                <div class="product-contents">
+                                    <h3>
+                                        <span class="title">
                                         serving   
                                     </span><br>
-                                    <span class="title">
+                                        <span class="title">
                                         those
                                     </span><br>
-                                    <span class="title">
+                                        <span class="title">
                                         who
                                     </span><br>
-                                    <span class="title">
+                                        <span class="title">
                                         serve
                                     </span>
-                                </h3>
-                            </div>
-                            <button class="btn btn-order text-uppercase text-white">
+                                    </h3>
+                                </div>
+                                <button class="btn btn-order text-uppercase text-white">
                                 order Now
                             </button>
-                        </div>
+                            </div>
+                        </a>
                     </div>
                     <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 pb-4">
-                        <div class="product">
-                            <img src="./public/assets/img/layer3.jpg" alt="" class="layer">
-                            <div class="product-contents">
-                                <h3>
-                                    <span class="title">
+                        <a href="">
+                            <div class="product-item">
+                                <img src="./public/assets/img/layer3.jpg" alt="" class="layer">
+                                <div class="product-contents">
+                                    <h3>
+                                        <span class="title">
                                         offers &  
                                     </span><br>
-                                    <span class="title">
+                                        <span class="title">
                                         daily
                                     </span><br>
-                                    <span class="title">
+                                        <span class="title">
                                         specials
                                     </span>
-                                </h3>
-                            </div>
-                            <button class="btn btn-order text-uppercase text-white">
+                                    </h3>
+                                </div>
+                                <button class="btn btn-order text-uppercase text-white">
                                 order Now
                             </button>
-                        </div>
+                            </div>
+                        </a>
                     </div>
                     <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-6 pb-4">
-                        <div class="product">
-                            <img src="./public/assets/img/layer4.jpg" alt="" class="layer">
-                            <div class="product-contents">
-                                <h3>
-                                    <span class="title">
+                        <a href="">
+                            <div class="product-item">
+                                <img src="./public/assets/img/layer4.jpg" alt="" class="layer">
+                                <div class="product-contents">
+                                    <h3>
+                                        <span class="title">
                                         Make  
                                     </span><br>
-                                    <span class="title">
+                                        <span class="title">
                                         Dinner
                                     </span><br>
-                                    <span class="title">
+                                        <span class="title">
                                        delicious
                                     </span><br>
-                                    <span class="title">
+                                        <span class="title">
                                         tonight
                                     </span>
-                                </h3>
-                            </div>
-                            <button class="btn btn-order text-uppercase text-white">
+                                    </h3>
+                                </div>
+                                <button class="btn btn-order text-uppercase text-white">
                                 order Now
                             </button>
-                        </div>
+                            </div>
+                        </a>
                     </div>
                     <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-6 pb-4">
-                        <div class="product">
-                            <img src="./public/assets/img/layer5.jpg" alt="" class="layer">
-                            <div class="product-contents">
-                                <h3>
-                                    <span class="title">
+                        <a href="">
+                            <div class="product-item">
+                                <img src="./public/assets/img/layer5.jpg" alt="" class="layer">
+                                <div class="product-contents">
+                                    <h3>
+                                        <span class="title">
                                         open
                                     </span><br>
-                                    <span class="title">
+                                        <span class="title">
                                         for
                                     </span><br>
-                                    <span class="title">
+                                        <span class="title">
                                       lunch
                                     </span>
-                                </h3>
-                            </div>
-                            <button class="btn btn-order text-uppercase text-white">
+                                    </h3>
+                                </div>
+                                <button class="btn btn-order text-uppercase text-white">
                                 order Now
                             </button>
-                        </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="contact">
+        <div class="about-me">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <h3 class="title" style="padding-bottom: 35px; color: black; padding-left: 0px;">
+                            Our Story
+                        </h3>
+                        <p style="text-align: justify;">
+                            We are an Australian-inspired steakhouse restaurant beloved worldwide. We pride ourselves on serving up variety; our unbeatable steak cuts are complemented by delicious choices of chicken, ribs, seafood, and pasta at a price for everyone. Our strategy?
+                            We're the leader of the pack by emphasizing consistently high quality delicious food delivering a warm, welcoming environment. Our generous portions are moderately priced. Our casual atmosphere couldn't be more transporting
+                            - it's like you're right there in the Australian Outback. Bloomin' Brands, Inc. is based in Tampa, FL, founded in 1988 by those who love hospitality, sharing, quality, being courageous and having fun. We're a company of restaurants
+                            that owns and operates Outback Steakhouse, Carrabba's Italian Grill, Bonefish Grill and Fleming's Prime Steakhouse & Wine Bar .
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact" id="contact">
             <div class="container">
                 <div class="row">
                     <h3 class="title col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" style="padding-bottom: 35px;">
@@ -326,6 +359,10 @@
                 </div>
             </div>
         </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="public/assets/js/main.js"></script>
     </footer>
 </body>
 
